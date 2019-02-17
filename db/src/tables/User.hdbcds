@@ -1,0 +1,15 @@
+namespace HiMTA;
+
+using HiMTA::ExtraInfo.Address;
+using HiMTA::ExtraInfo.Cars;
+
+
+entity User {
+    @Comment: 'Id of User'
+    key usid : String(4);
+    @Comment: 'Description'
+    name : String(100);
+
+    toCars : Association[*] to Cars on toCars.usid = usid;
+    toAddress : Association[1] to Address on toAddress.usid = usid;
+};

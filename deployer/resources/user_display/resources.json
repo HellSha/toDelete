@@ -1,0 +1,70 @@
+{
+    "resources": [
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "Component.js"
+        },
+        {
+            "name": "controller\\App-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller\\App.controller.js"
+        },
+        {
+            "name": "di.code-validation.core_issues.json"
+        },
+        {
+            "name": "i18n\\i18n.properties",
+            "raw": "i18n\\i18n.properties"
+        },
+        {
+            "name": "index.html"
+        },
+        {
+            "name": "manifest.json"
+        },
+        {
+            "name": "tmp\\Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "tmp\\Component.js"
+        },
+        {
+            "name": "tmp\\controller\\App.controller.js"
+        },
+        {
+            "name": "tmp\\i18n\\i18n.properties",
+            "raw": "i18n\\i18n.properties"
+        },
+        {
+            "name": "tmp\\index.html"
+        },
+        {
+            "name": "tmp\\manifest.json"
+        },
+        {
+            "name": "tmp\\view\\App.view.xml"
+        },
+        {
+            "name": "tmp-dbg\\Component.js"
+        },
+        {
+            "name": "tmp-dbg\\controller\\App.controller.js"
+        },
+        {
+            "name": "view\\App.view.xml"
+        },
+        {
+            "name": "xs-app.json"
+        }
+    ]
+}
